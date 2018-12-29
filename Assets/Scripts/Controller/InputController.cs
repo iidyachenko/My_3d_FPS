@@ -10,6 +10,9 @@ namespace FPS
         {
             if (Input.GetButtonDown("SwitchFlashlight"))
                 Main.Instance.FlashlightController.SwitchFlashlight();
+
+            if (Input.GetButtonDown("Action") && Main.Instance.PlayerController.hit.collider != null)
+                Main.Instance.PlayerController.Get_Object(Main.Instance.PlayerController.hit);
         }
     }
 }

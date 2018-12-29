@@ -64,7 +64,9 @@
     <Compile Include="Assets\Scripts\Controller\BaseController.cs" />
     <Compile Include="Assets\Scripts\Controller\FlashlightController.cs" />
     <Compile Include="Assets\Scripts\Controller\InputController.cs" />
+    <Compile Include="Assets\Scripts\Controller\PlayerController.cs" />
     <Compile Include="Assets\Scripts\Main.cs" />
+    <Compile Include="Assets\Scripts\Models\BaseSceneObject.cs" />
     <Compile Include="Assets\Scripts\Models\FlashLightModel.cs" />
     <Compile Include="Assets\Scripts\Views\FlashlightView.cs" />
     <None Include="Assets\Cartoon Temple Building Kit\ReadMe.txt" />
